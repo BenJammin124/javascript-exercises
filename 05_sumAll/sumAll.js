@@ -1,7 +1,7 @@
 const sumAll = function (x, y) {
     let sum = 0;
     if (typeof x === 'string' || typeof y === 'string' || y instanceof Array) {
-        return 'ERROR'
+        return 'ERROR' //!Number.isInteger(min) || !Number.isInteger(max) instead
     } else if (x < 0 || y < 0) {
         return 'ERROR'
     } else if (x > y) {
